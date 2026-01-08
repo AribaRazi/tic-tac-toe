@@ -1,0 +1,230 @@
+*{
+    padding:0%;
+    margin:0rem;
+}
+
+.heading{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #D9A299;
+    height: 2rem;
+    margin-bottom: 1.3rem;
+}
+.head{
+     justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 29px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container_class
+{
+    display:grid;
+    place-items: center;
+    margin-left: 31.5rem;
+    cursor: pointer;
+}
+.dot{
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius: 50%;
+    background-color: black;
+    color: #fff;
+    margin-top: 0.22rem;
+}
+.group_menu{
+    margin-left: 1.5rem;
+}
+.content{
+    font-size: 16px;
+    margin-top: 12rem;
+    margin-right: 1.5rem;
+    /* background-color: #BA487F; */
+    color: black;
+}
+.list1{
+    background-color: rgb(228, 217, 217);
+     height: 28px;
+    width: 130px;
+}
+.list2{
+    background-color: rgb(240, 181, 202);
+         height: 28px;
+    width: 130px;
+}
+.list3{
+    background-color: rgb(228, 217, 217);
+         height: 28px;
+    width: 130px;
+}
+.list4{
+    background-color: rgb(240, 181, 202);
+         height: 28px;
+    width: 130px;
+}
+.list5{
+    background-color: rgb(228, 217, 217);
+         height: 28px;
+    width: 130px;
+}
+.list1:hover{
+    background-color: rgb(202, 200, 200);
+}
+.list2:hover{
+    background-color: rgb(188, 115, 141);
+}
+.list3:hover{
+    background-color: rgb(202, 200, 200);
+}
+.list4:hover{
+    background-color:  rgb(188, 115, 141);
+}
+.list5:hover{
+    background-color: rgb(202, 200, 200);
+}
+
+
+.container_class .content
+{
+    /* display:none; */
+    visibility: hidden;
+    position: absolute;
+}
+/* .container_class:hover .content{
+    display: block;
+} */
+.message{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 35px;
+}
+
+body{
+    background-color: #efd1df;
+}
+
+.first,.second,.third{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   height: 90px;
+   width: 90px;
+   display: flex;
+   border: 2px white solid;
+}
+.template{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 62px;
+    cursor: pointer;
+
+}
+#zero{
+    background-color: #bc7898;
+}
+#one{
+    background-color: #BA487F;
+}
+#two{
+    background-color:  #bc7898;
+}
+#three{
+    background-color: #BA487F;
+}
+#four{
+    background-color: #bc7898;
+}
+#five{
+    background-color:#BA487F;
+}
+#six{
+    background-color: #bc7898;
+}
+#seven{
+    background-color: #BA487F;
+}
+#eight{
+    background-color: #bc7898;
+}
+
+/* for hovering */
+#zero:hover{
+    border:2px solid black;
+}
+#one:hover{
+   
+    border:2px solid black;
+}
+#two:hover{
+
+    border:2px solid black;
+}
+#three:hover{
+   
+    border:2px solid black;
+}
+#four:hover{
+
+    border:2px solid black;
+}
+#five:hover{
+
+    border:2px solid black;
+}
+#six:hover{
+
+    border:2px solid black;
+}
+#seven:hover{
+
+    border:2px solid black;
+}
+#eight:hover{
+ 
+    border:2px solid black;
+}
+.scoreBoard_refresh{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    gap: 3rem;
+    margin-top: 1rem;
+    font-size: larger;
+}
+#refresh_id{
+    height: 33px;
+    width: 33px;
+    font-size: larger;
+}
+.fact{
+        justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    gap: 2rem;
+    font-size: larger;
+    margin-top: 2rem;
+
+}
+.Random_fact{
+      height: 1.3rem;
+      background-color: #f7e9e7;
+      margin-top: 0.5rem;
+}
+
+#factBtn{
+    height: 24px;
+    width: 26px;
+    background-color: #bc7898;
+    color: #fff;
+    border: none;
+}
+#factBtn:hover{
+    border: 2px black solid;
+}

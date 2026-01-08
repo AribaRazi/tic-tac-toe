@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+    <div class="heading">
+        <div class="head">Welcome to Tic Tac Toe game</div>
+    </div>
+
+    <!-- <div class="change_backGround">
+        <div class="bgOne" id="bgOne">1</div>
+        <div class="bgTwo" id="bgTwo">2</div>
+        <div class="bgThree" id="bgThree">3</div>
+        <div class="bgFour" id="bgFour">4</div>
+    </div> -->
+    <div class="container_class">
+        <div class="group_menu">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+
+        <div class="content">
+            <div class="content_inside" onmouseleave="document.querySelector('.container_class .content').style.visibility='hidden'">
+                <!-- <div class="content_inside"> -->
+            <div class="list1" id="lone">Theme 1</div>
+            <div class="list2" id="ltwo">Theme 2</div>
+            <div class="list3" id="lthree">Theme 3</div>
+            <div class="list4" id="lfour">Theme 4</div>
+            <div class="list5" id="lfive">EXIT</div>
+            </div>
+        </div>
+    </div>
+     
+    <div class="message">
+        <div class="score_Board"></div>   
+    </div>
+
+    <div class="template">
+        <div class="box1">
+            <div class="first"id="zero"></i></div>
+            <div class="first" id="three"></div>
+            <div class="first" id="six"></div>
+        </div>
+
+        <div class="box2">
+            <div class="first"id="one"></div>
+            <div class="first" id="four"></div>
+            <div class="first"id="seven"></div>
+        </div>
+
+        <div class="box3">
+            <div class="first" id="two"></div>
+            <div class="first" id="five"></div>
+            <div class="first" id="eight"></div>
+        </div>
+    </div>
+
+    <div class="scoreBoard_refresh">
+        <div class="user">
+            <p id="user_Score">0</p>
+            <p>user</p>
+        </div>
+        <div class="comp">
+        <p id="comp_Score">0</p>
+        <p>comp</p>
+        </div>
+        <div class="refresh">
+            <button id="refresh_id">
+                <i class="fa-solid fa-rotate-right"></i>
+            </button>
+        </div>
+    </div>
+ <div class="fact">
+        <div class="Random_fact" id="factPara">Random fact</div>
+        <div class="generate_button">
+            <button id="factBtn">Get</button>
+        </div>
+    </div>
+      
+ <script src="tic.js"></script>
+</body>
+
+</html>
