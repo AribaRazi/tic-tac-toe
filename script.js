@@ -77,6 +77,7 @@ const checkForUser = () => {  //user
 const DrawGame = () => {
     console.log("Draw");
     display.innerText = "Its a Draw!";
+    setTimeout(resetBoard, 1800)
 }
 
 const changePic = (userChoice, CompChoice) => {
