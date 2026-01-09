@@ -42,7 +42,7 @@ The game allows a user to play against the computer with:
 Clone the repository:
 
 ```bash
-git clone https://github.com/AribaRazi/tic-tac-toe-game.git
+git clone https://github.com/AribaRazi/tic-tac-toe.git
 Open index.html in browser.
 
 📸 Preview
