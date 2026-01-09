@@ -39,19 +39,17 @@ The game allows a user to play against the computer with:
 ## 📂 Project Setup
 
 Clone the repository:
-
-```bash
 git clone https://github.com/AribaRazi/tic-tac-toe.git
 Open index.html in your browser.
 
-📸 Preview
+## 📂 Preview
 <img width="1920" height="1080" alt="Screenshot (162)" src="https://github.com/user-attachments/assets/43058a99-642a-4d2a-b05a-14a7524b2177"/>
 
-🙌 Author
+## 🙌 Author
 Ariba Razi
 
 GitHub: https://github.com/AribaRazi
 
-⭐ Support
+## ⭐ Support
 If you like this project,
 give it a star ⭐ on GitHub!
